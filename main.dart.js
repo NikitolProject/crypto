@@ -38558,7 +38558,11 @@ var $async$ph=A.a3(function(a,b){if(a===1)return A.a_(b,r)
 while(true)switch(s){case 0:n=t.H
 s=3
 return A.Z(A.eC($.h7().a.enable(),n),$async$ph)
-case 3:if(J.Ti($.h7().a)){J.aji($.h7().a)
+case 3:A.j1("==============")
+A.j1(J.amw($.h7().a))
+A.j1(J.aji($.h7().a))
+A.j1("==============")
+if(J.Ti($.h7().a)){J.aji($.h7().a)
 o=!0}else o=!1
 s=o?4:5
 break
@@ -38571,11 +38575,7 @@ p.hj(0)
 q=null
 s=1
 break
-case 5:A.j1("==============")
-A.j1(J.amw($.h7().a))
-A.j1(J.aji($.h7().a))
-A.j1("==============")
-if(J.Ti($.h7().a)&&$.r6.length===0){$.r6=J.CO(J.amw($.h7().a))
+case 5:if(J.Ti($.h7().a)&&$.r6.length===0){$.r6=J.CO(J.amw($.h7().a))
 $.akR=!0
 $.a9L=new A.KV(new ethers.providers.Web3Provider($.h7().a))}p.hj(0)
 case 1:return A.a0(q,r)}})
